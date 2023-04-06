@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UI  Suite">
+    <test name="UI Testing">
+        <parameter name="firstSelected" value="India"></parameter>
+        <parameter name="country" value="India"></parameter>
+        <parameter name="country2" value="United states of America"></parameter>
+        <parameter name="country3" value="China"></parameter>
+        <parameter name="country4" value="England"></parameter>
+        <parameter name="validation" value="Name: Mert, Yarsoy
+Gender: Male
+Birthdate: 1, September, 1999
+Address: 201 Se 2nd Ave, Monarc at Met 3 2220, Miami, FL, USA, 33131
+Phone Number: 7862380866"></parameter>
+        <classes>
+            <class name="HomeWork.HW_4.tests.Testing"></class>
+        </classes>
+    </test>
+</suite>
